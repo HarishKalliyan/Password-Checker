@@ -1,0 +1,202 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0,0.35)50%,rgba(0,0,0,0.35)50%),url('cc8.png');
+    height: 100vh;
+    background-position:center;
+    background-size:cover;
+}
+.nav-reset{
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+    
+}
+.nav-reset li{
+    display: inline-block;
+}
+.nav-reset li a
+{
+    color: rgba(255, 208, 146, 0.938);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 28px;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+    
+}
+.nav-reset li a:hover
+{
+    border: 2px rgb(20, 175, 20);
+    background-color: rgb(255, 207, 51);
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.nav-menu{
+    float: right;
+    list-style: none;
+    margin-top: 6px;
+}
+.nav-menu li{
+    display: inline-block;
+}
+.nav-menu li a
+{
+    color: rgba(255, 208, 146, 0.938);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 23px;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+    
+}
+.nav-menu li a:hover
+{
+    border: 2px rgb(20, 175, 20);
+    background-color: rgb(255, 207, 51);
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.wrapper{
+    background-color:   hsl(191, 100%, 97%);
+    width: 450px;
+    padding: 45px 0;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 48%;  
+    border-radius: 10px;
+    box-shadow: 0 44px 50px rgba(0, 0, 0, 0.808);
+}
+.text-box{
+    position: absolute;
+    top:5%;
+    font-size:52px;
+    font-weight: 20px;
+    left:20%;
+    color: transparent;
+    -webkit-text-stroke: 1.17px #dfdede;
+    background: url(cc5.jpeg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:back 18s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 1000px 0;
+    }
+}
+.container{
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    border: 1px solid orange;
+}
+input,
+p{
+    font-family: Arial, Helvetica, monospace;
+    letter-spacing: 0.75px;
+}
+input{
+    width: 100%;
+    height: 35px;
+    padding: 0 40px 0 20px;
+    position: relative;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+}
+
+#toggle{
+    position: absolute; 
+    top: 20px;
+    right: 15px;
+    color: #757575;
+    cursor: pointer;
+}
+.strength{
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    bottom: 4.8px;
+    transition: 0.45s ease-in-out;
+    border-radius: 3px;
+}
+#strength-bar{
+    background-color: #dcdcdc;
+    height: 10px;
+    position: relative;
+    border-radius: 0 0 5px 5px;
+}
+p{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: blue;
+    text-shadow:  3px 1px rgb(24, 248, 248);
+    font-style: inherit;
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 10px;
+}
+#password-policies{
+    position: relative;
+    top:0px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 90%;
+    padding:10px;
+    font-size:17px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(1, 247, 222, 0.925);
+    text-shadow: 1px 1px rgb(1, 170, 248);
+    height: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',serif;
+    background: rgb(252, 245, 245);
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    opacity: 1;
+    overflow: hidden;
+
+}
+#policies{
+    position: relative;
+    top:0px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:17px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(13, 245, 83, 0.938);
+    text-shadow: 2px 2px rgb(250, 246, 3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',serif;
+
+    opacity: 1;
+    overflow: hidden;
+    transition: height 300ms ease-in-out,
+                opacity 300ms ease-in-out;
+
+}
+#password-policies.active{
+    opacity:1;
+    padding: 10px;
+    height: 180px;
+}
+#password-polices>div{
+    margin:15px 10px;
+    font-weight: 600;
+    color: #888;
+}
+#password.policies> div.active{
+    color: #111;
+}
