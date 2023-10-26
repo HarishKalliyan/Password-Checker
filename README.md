@@ -1,3 +1,22 @@
+# Password-Checker:
+
+In this I have created a web based Application in which we can able to check whether the Password you provided have been using is secure and safe or not.
+Also I have add a visibility check for viewing and hiding the password.😉😁
+
+# Screem Shots of the Project:
+## Home :
+
+![Passwordcheck](https://github.com/HarishKalliyan/Password-Checker/assets/90775945/e9a2d4a3-1b44-4216-9628-5a637964ed38)
+
+## Strong Password:
+
+![Strong](https://github.com/HarishKalliyan/Password-Checker/assets/90775945/e5cc430b-abf1-4189-9a65-058333eebf65)
+
+## Very Weak Password:
+
+![Very weak](https://github.com/HarishKalliyan/Password-Checker/assets/90775945/11018783-399f-48bf-a84e-c9452fc77d9e)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
